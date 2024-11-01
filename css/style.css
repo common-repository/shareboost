@@ -1,0 +1,354 @@
+::selection {
+	background: #FD966D;
+}
+::-webkit-selection {
+	background: #FD966D;
+}
+::-moz-selection {
+	background: #FD966D;
+}
+
+.CodeMirror {
+	height: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2em;
+}
+
+hr {
+	border-top: 1px solid #262a2c;
+	border-bottom: 1px solid rgba(97,102,104,0.85);
+}
+
+footer {
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+	color: #778489;
+	background: #2B3033;
+}
+
+.main-section {
+	background: #3E4549;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.info-section {
+	padding: 30px 0;
+	background: #38C8E0;
+	color: white;
+}
+.normal-section {
+	padding: 30px 0;
+}
+
+.normal-section h1 {
+	text-align: center;
+}
+
+.info-section h3 {
+	text-align: center;
+}
+
+/*
+.info-section .span4 {
+	background: #35A3BC;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+*/
+
+.main-section h1 {
+	font-size: 60px;
+}
+
+.main-section h1, .info-section h1, .normal-section h1 {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.main-section h4 {
+	text-align: center;
+}
+
+.main-section .heading {
+	text-align: center;
+	font-size: 170px;
+	margin: 50px 0;
+	color: #556060;
+}
+
+.main-section .heading div {
+	color: #556060;
+	position: relative;
+	-webkit-transition: color 0.2s ease, text-shadow 0.2s ease, top 0.2s ease, left 0.2s ease;
+	-moz-transition: color 0.2s ease, text-shadow 0.2s ease, top 0.2s ease, left 0.2s ease;
+	-ms-transition: color 0.2s ease, text-shadow 0.2s ease, top 0.2s ease, left 0.2s ease;
+	-o-transition: color 0.2s ease, text-shadow 0.2s ease, top 0.2s ease, left 0.2s ease;
+	transition: color 0.2s ease, text-shadow 0.2s ease, top 0.2s ease, left 0.2s ease;
+	cursor: pointer;
+}
+
+.main-section .heading div:hover {
+	text-shadow: 5px 5px rgba(0,0,0,0.3);/*, -1px -1px rgba(255,255,255,0.6);*/
+	top: -5px;
+	left: -5px;
+}
+
+.main-section .heading div:active {
+	text-shadow: none;
+	top: 0;
+	left: 0;
+}
+
+.main-section .heading .icon-twitter-sign:hover, .checkbox .icon-twitter-sign {
+	color: #38C8E0;
+}
+
+.main-section .heading .icon-facebook-sign:hover, .checkbox .icon-facebook-sign {
+	color: #45619D;
+}
+
+.main-section .heading .icon-linkedin-sign:hover, .checkbox .icon-linkedin-sign {
+	color: #1783BC;
+}
+
+.main-section .heading .icon-google-plus-sign:hover, .checkbox .icon-google-plus-sign {
+	color: #CC3433;
+}
+
+.main-section .heading .icon-pinterest-sign:hover, .checkbox .icon-pinterest-sign {
+	color: #CD2026;
+}
+
+.navbar .brand {
+	font-size: 30px;
+	position: relative;
+}
+.navbar .brand:hover {
+	color: white;
+}
+
+.rocket {
+	display: inline-block;
+}
+
+.navbar .brand .icon-rocket, .navbar .brand span  {
+	color: #F98253;
+}
+
+.navbar .brand .icon-rocket {
+	font-size: 45px;
+	z-index: 1;
+	position: relative;
+}
+
+.navbar .brand .rocket-stream {
+	background: #ccc;
+	border-radius: 6px;
+	height: 6px;
+	width: 6px;
+	position: absolute;
+	-webkit-animation: rocket 3s infinite linear;
+	-moz-animation: rocket 3s infinite linear;
+	-ms-animation: rocket 3s infinite linear;
+	-o-animation: rocket 3s infinite linear;
+	animation: rocket 3s infinite linear;
+	-webkit-transform: translate(-10px,-10px);
+	-moz-transform: translate(-10px,-10px);
+	-ms-transform: translate(-10px,-10px);
+	-o-transform: translate(-10px,-10px);
+	transform: translate(-10px,-10px);
+}
+
+.navbar .brand .rocket-stream:nth-child(2) {
+	-webkit-transform: translate(-5px,-5px);
+	-moz-transform: translate(-5px,-5px);
+	-ms-transform: translate(-5px,-5px);
+	-o-transform: translate(-5px,-5px);
+	transform: translate(-5px,-5px);
+	-webkit-animation-delay: -2s;
+	-moz-animation-delay: -2s;
+	-ms-animation-delay: -2s;
+	-o-animation-delay: -2s;
+	animation-delay: -2s;
+}
+
+.navbar .brand .rocket-stream:nth-child(3) {
+	-webkit-transform: translate(0px,-10px);
+	-moz-transform: translate(0px,-10px);
+	-ms-transform: translate(0px,-10px);
+	-o-transform: translate(0px,-10px);
+	transform: translate(0px,-10px);
+	-webkit-animation-delay: -1s;
+	-moz-animation-delay: -1s;
+	-ms-animation-delay: -1s;
+	-o-animation-delay: -1s;
+	animation-delay: -1s;
+}
+
+.navbar .brand .rocket-stream:nth-child(5) {
+	-webkit-transform: translate(0px,-15px);
+	-moz-transform: translate(0px,-15px);
+	-ms-transform: translate(0px,-15px);
+	-o-transform: translate(0px,-15px);
+	transform: translate(0px,-15px);
+	-webkit-animation-delay: -3s;
+	-moz-animation-delay: -3s;
+	-ms-animation-delay: -3s;
+	-o-animation-delay: -3s;
+	animation-delay: -3s;
+}
+
+.navbar .brand .rocket-stream:nth-child(7) {
+	-webkit-animation-delay: -1.5s;
+	-moz-animation-delay: -1.5s;
+	-ms-animation-delay: -1.5s;
+	-o-animation-delay: -1.5s;
+	animation-delay: -1.5s;
+}
+.navbar .brand .rocket-stream:nth-child(9) {
+	-webkit-animation-delay: -0.5s;
+	-moz-animation-delay: -0.5s;
+	-ms-animation-delay: -0.5s;
+	-o-animation-delay: -0.5s;
+	animation-delay: -0.5s;
+}
+
+.navbar .brand .rocket-stream:nth-child(11) {
+	-webkit-animation-delay: -2.5s;
+	-moz-animation-delay: -2.5s;
+	-ms-animation-delay: -2.5s;
+	-o-animation-delay: -2.5s;
+	animation-delay: -2.5s;
+}
+
+.nav-tabs img {
+	width: 16px;
+}
+
+@-webkit-keyframes rocket
+{
+	from {
+		top: 50px;
+		left: 40px;
+		width: 8px;
+		height: 8px;
+	}
+	to {
+		top: 100px;
+		left: 0px;
+		width: 1px;
+		height: 1px;
+
+	}
+}
+
+
+@-moz-keyframes rocket
+{
+	from {
+		top: 50px;
+		left: 40px;
+		width: 8px;
+		height: 8px;
+	}
+	to {
+		top: 100px;
+		left: 0px;
+		width: 1px;
+		height: 1px;
+
+	}
+}
+
+@-ms-keyframes rocket
+{
+	from {
+		top: 50px;
+		left: 40px;
+		width: 8px;
+		height: 8px;
+	}
+	to {
+		top: 100px;
+		left: 0px;
+		width: 1px;
+		height: 1px;
+
+	}
+}
+
+@-o-keyframes rocket
+{
+	from {
+		top: 50px;
+		left: 40px;
+		width: 8px;
+		height: 8px;
+	}
+	to {
+		top: 100px;
+		left: 0px;
+		width: 1px;
+		height: 1px;
+
+	}
+}
+
+@keyframes rocket
+{
+	from {
+		top: 50px;
+		left: 40px;
+		width: 8px;
+		height: 8px;
+	}
+	to {
+		top: 100px;
+		left: 0px;
+		width: 1px;
+		height: 1px;
+
+	}
+}
+
+@media (max-width: 767px) {
+	.row {
+		box-sizing: border-box;
+		padding: 0 20px;
+	}
+	.alignment-filler {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.main-section h1 {
+		font-size: 45px;
+	}
+
+
+	.main-section .heading {
+		font-size: 100px;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-section h1 {
+		font-size: 28px;
+	}
+
+	.main-section h4 {
+		font-size: 20px;
+	}
+
+	.main-section .heading {
+		font-size: 60px;
+	}
+
+}
